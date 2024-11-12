@@ -1,6 +1,6 @@
 $resourceGroupName = 'rg-tfstate-cac'
 $storageAccountName = 'satfstatecac20230510'
-$location = 'Switzerlandnorth'
+$location = 'Switzerland North'
 
 az group create --location $location --name $resourceGroupName
 az storage account create --name $storageAccountName --resource-group $resourceGroupName --location $location --sku Standard_LRS
